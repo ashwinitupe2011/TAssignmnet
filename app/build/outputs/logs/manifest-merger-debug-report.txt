@@ -1,0 +1,144 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\09c1ae5db217f70e73435bb5d3e0d07e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1f317eeab8659842b1b11314bcaa775b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6912bd6849f61adad3716bf1faafdefc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\volley-1.1.0.aar\5f902015d1eef4c0f0bb2d6039db80bb\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\a9f601cb2435f17f5beab0135111b4c4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\467657d5ab9c9a86a4c83b07c04f013e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a6c5a245f845b5a76c6f7963eea6ade9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fab0c7d5995b3ee099f8cb77e9d0d2b4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\ef49cd4c02175ba830567f03e828dcf4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\88a0c4d02540489cb97b5da44fea5f84\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\d0363aa9b436acd0ac5d6b441a5eef16\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4623fa499a66424d60399bb44faf89be\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:5:1-20:15
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\09c1ae5db217f70e73435bb5d3e0d07e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\09c1ae5db217f70e73435bb5d3e0d07e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1f317eeab8659842b1b11314bcaa775b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1f317eeab8659842b1b11314bcaa775b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6912bd6849f61adad3716bf1faafdefc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6912bd6849f61adad3716bf1faafdefc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\volley-1.1.0.aar\5f902015d1eef4c0f0bb2d6039db80bb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\volley-1.1.0.aar\5f902015d1eef4c0f0bb2d6039db80bb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\a9f601cb2435f17f5beab0135111b4c4\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\a9f601cb2435f17f5beab0135111b4c4\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\467657d5ab9c9a86a4c83b07c04f013e\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\467657d5ab9c9a86a4c83b07c04f013e\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a6c5a245f845b5a76c6f7963eea6ade9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a6c5a245f845b5a76c6f7963eea6ade9\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:9:5-31
+	android:label
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:8:5-37
+	android:icon
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:7:5-39
+	android:allowBackup
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:6:5-31
+	android:theme
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:10:5-36
+activity#com.example.windows10.tassignment.activity.MainActivity
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:11:5-18:16
+	android:name
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:12:9-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:13:9-17:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:14:13-65
+	android:name
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:14:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:16:13-73
+	android:name
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:16:23-70
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:22:1-63
+	android:name
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:22:18-60
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:23:1-75
+	android:name
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:23:18-72
+uses-sdk
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\09c1ae5db217f70e73435bb5d3e0d07e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\09c1ae5db217f70e73435bb5d3e0d07e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1f317eeab8659842b1b11314bcaa775b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1f317eeab8659842b1b11314bcaa775b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6912bd6849f61adad3716bf1faafdefc\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6912bd6849f61adad3716bf1faafdefc\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\volley-1.1.0.aar\5f902015d1eef4c0f0bb2d6039db80bb\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\volley-1.1.0.aar\5f902015d1eef4c0f0bb2d6039db80bb\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\a9f601cb2435f17f5beab0135111b4c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\a9f601cb2435f17f5beab0135111b4c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\467657d5ab9c9a86a4c83b07c04f013e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\467657d5ab9c9a86a4c83b07c04f013e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a6c5a245f845b5a76c6f7963eea6ade9\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a6c5a245f845b5a76c6f7963eea6ade9\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fab0c7d5995b3ee099f8cb77e9d0d2b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fab0c7d5995b3ee099f8cb77e9d0d2b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\ef49cd4c02175ba830567f03e828dcf4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\ef49cd4c02175ba830567f03e828dcf4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\88a0c4d02540489cb97b5da44fea5f84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\88a0c4d02540489cb97b5da44fea5f84\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\d0363aa9b436acd0ac5d6b441a5eef16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\d0363aa9b436acd0ac5d6b441a5eef16\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4623fa499a66424d60399bb44faf89be\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4623fa499a66424d60399bb44faf89be\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1f317eeab8659842b1b11314bcaa775b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1f317eeab8659842b1b11314bcaa775b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6912bd6849f61adad3716bf1faafdefc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\6912bd6849f61adad3716bf1faafdefc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\a9f601cb2435f17f5beab0135111b4c4\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\a9f601cb2435f17f5beab0135111b4c4\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\467657d5ab9c9a86a4c83b07c04f013e\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\467657d5ab9c9a86a4c83b07c04f013e\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a6c5a245f845b5a76c6f7963eea6ade9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\a6c5a245f845b5a76c6f7963eea6ade9\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:26:9-47
