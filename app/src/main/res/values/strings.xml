@@ -3,4 +3,10 @@
     <string name="dialog_message">Loading...</string>
     <string name="dialog_title">Please wait</string>
     <string name="menu_refresh">Refresh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_name">ArticleFragment</string>
+    <string name="content_description">Content Description</string>
+
+
 </resources>
