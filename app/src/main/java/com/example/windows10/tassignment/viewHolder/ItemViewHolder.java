@@ -22,9 +22,9 @@ public class ItemViewHolder extends RecyclerView.ViewHolder {
 
     public ItemViewHolder(View itemView) {
         super(itemView);
-        tvTitle = (TextView) itemView.findViewById(R.id.tvTitle);
-        tvDescription = (TextView) itemView.findViewById(R.id.tvDescription);
-        imUserImage = itemView.findViewById(R.id.imUserImage);
+        tvTitle =  itemView.findViewById(R.id.tvTitle);
+        tvDescription = itemView.findViewById(R.id.tvDescription);
+        imUserImage = itemView.findViewById(R.id.imArticleImage);
         mCardView = itemView.findViewById(R.id.cardView);
     }
 }

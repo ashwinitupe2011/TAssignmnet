@@ -1,8 +1,6 @@
 package com.example.windows10.tassignment.Iterator;
 
 import android.content.Context;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.util.Log;
 
 import com.android.volley.DefaultRetryPolicy;
@@ -12,6 +10,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.windows10.tassignment.utils.Utils;
 import com.google.gson.JsonSyntaxException;
 
 import org.json.JSONArray;
@@ -27,6 +26,8 @@ import com.example.windows10.tassignment.interfaces.GetDataListener;
 import com.example.windows10.tassignment.interfaces.MainInteractor;
 import com.example.windows10.tassignment.utils.Constants;
 
+import static android.content.Context.MODE_PRIVATE;
+
 /**
  *         Created by ashwini on 11/03/18.
  */
@@ -36,7 +37,7 @@ public class MainInteractorImpl implements MainInteractor {
     private GetDataListener mGetDatalistener;
     private RequestQueue mRequestQueue;
 
-    private final String REQUEST_TAG = "EQ-Network-Call";
+    private final String REQUEST_TAG = "Network-Call";
 
     public MainInteractorImpl(GetDataListener mGetDatalistener) {
 
@@ -64,7 +65,7 @@ public class MainInteractorImpl implements MainInteractor {
 
         if (shouldLoadFromNetwork) {
 
-            if (checkInternet(context)) {
+            if (Utils.checkInternet(context)) {
                 this.initNetworkCall(context, Constants.Article_URL);
             } else {
                 mGetDatalistener.onFailure("No internet connection.");
@@ -79,7 +80,7 @@ public class MainInteractorImpl implements MainInteractor {
 
         mRequestQueue = Volley.newRequestQueue(context);
 
-        StringRequest request = new StringRequest(Request.Method.GET, url, onEQLoaded, onEQError);
+        StringRequest request = new StringRequest(Request.Method.GET, url, onListLoaded, onListError);
         request.setRetryPolicy(new DefaultRetryPolicy(
                 10000, /* 10 sec timeout policy */
                 0, /*no retry*/
@@ -101,10 +102,10 @@ public class MainInteractorImpl implements MainInteractor {
         cancelAllRequests();
     }
 
-    private final Response.Listener<String> onEQLoaded = new Response.Listener<String>() {
+    private final Response.Listener<String> onListLoaded = new Response.Listener<String>() {
         @Override
         public void onResponse(String response) {
-            Log.i("EQ-Network", response);
+            Log.i("Network", response);
 
             try {
 
@@ -120,10 +121,9 @@ public class MainInteractorImpl implements MainInteractor {
                 }
 
                 mGetDatalistener.onSuccess("data Success",articlesList);
-//                mGetDatalistener.onSuccess("data success", eqResponse.getArticles());
 
             } catch (JsonSyntaxException ex) {
-                Log.e("EQ-Network11", ex.toString());
+                Log.e("Network11", ex.toString());
                 mGetDatalistener.onFailure(ex.toString());
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -132,21 +132,13 @@ public class MainInteractorImpl implements MainInteractor {
         }
     };
 
-    private final Response.ErrorListener onEQError = new Response.ErrorListener() {
+    private final Response.ErrorListener onListError = new Response.ErrorListener() {
         @Override
         public void onErrorResponse(VolleyError error) {
-            Log.e("EQ-Network", error.toString());
+            Log.e("Network", error.toString());
             mGetDatalistener.onFailure(error.toString());
         }
     };
 
-    public Boolean checkInternet(Context context) {
-        ConnectivityManager cn = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetworkInfo = cn.getActiveNetworkInfo();
-        if (activeNetworkInfo != null && activeNetworkInfo.isConnected() == true) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+
 }
