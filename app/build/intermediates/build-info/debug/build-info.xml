@@ -7,22 +7,22 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1542138448145"
+    timestamp="1542140595630"
     token="-8249973675012728552"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1320" />
+        duration="6039" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="90" />
+        duration="511" />
     <task
         name="verifier"
-        duration="38" />
+        duration="24" />
 
     <artifact
         location="C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -92,15 +92,6 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1542135136089"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
         ir-eligibility="COMPATIBLE"
         timestamp="1542135634877"
         verifier="COLD_SWAP_REQUESTED" >
@@ -131,8 +122,17 @@
     </build>
     <build
         build-mode="COLD"
+        ir-eligibility="METHOD_DELETED"
+        timestamp="1542139109579"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1542138448145"
+        timestamp="1542140595630"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\build\intermediates\split-apk\debug\slices\slice_6.apk"

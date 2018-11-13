@@ -42,7 +42,7 @@ public class MainInteractorImpl implements MainInteractor {
     }
 
     @Override
-    public void provideData(Context context, boolean checking) {
+    public void provideData(Context context) {
 
             if (Utils.checkInternet(context)) {
                 this.initNetworkCall(context, Constants.Article_URL);
@@ -98,7 +98,6 @@ public class MainInteractorImpl implements MainInteractor {
                     JSONObject object1 = array.getJSONObject(i);
 
                     Article article = new Article();
-                    article.setArticleTitle("ddd");
 
                    if(object1.getString(Constants.TITLE) != "null" &&  object1.getString(Constants.DESC) != null && object1.getString(Constants.IMAGE_URL) != null)
                    {

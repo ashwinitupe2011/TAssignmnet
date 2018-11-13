@@ -27,7 +27,7 @@ import java.util.List;
  * Created by ashwini on 13-Nov-18.
  */
 
-public class ArticleFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener , MainView {
+public class ArticleFragment extends Fragment implements  MainView, SwipeRefreshLayout.OnRefreshListener {
 
     static final String TAG = "ArticleFragment";
 
@@ -65,15 +65,16 @@ public class ArticleFragment extends Fragment implements SwipeRefreshLayout.OnRe
         mSwipeContainer =  view.findViewById(R.id.swipeContainer);
         // Setup refresh listener which triggers new data loading
         mSwipeContainer.setOnRefreshListener(this);
+
         // Configure the refreshing colors
         mSwipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright,
                 android.R.color.holo_green_light,
                 android.R.color.holo_orange_light,
                 android.R.color.holo_red_light);
 
+        mSwipeContainer.setRefreshing(false);
         mMainPresenter = new MainPresenterImpl(this);
-        mMainPresenter.getDataForList(getActivity(), false);
-
+        mMainPresenter.getDataForList(getActivity());
     }
 
     @Override
@@ -84,8 +85,8 @@ public class ArticleFragment extends Fragment implements SwipeRefreshLayout.OnRe
 
     @Override
     public void onRefresh() {
-        Toast.makeText(getActivity(),"hehdjfhg",Toast.LENGTH_LONG).show();
-        mMainPresenter.getDataForList(getActivity(), false);
+        mSwipeContainer.setRefreshing(true);
+        mMainPresenter.getDataForList(getActivity());
     }
 
     @Override

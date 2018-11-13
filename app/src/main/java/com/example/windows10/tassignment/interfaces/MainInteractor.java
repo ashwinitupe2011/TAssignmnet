@@ -8,7 +8,7 @@ import android.content.Context;
 
 public interface MainInteractor {
 
-    void provideData(Context context, boolean checking);
+    void provideData(Context context);
 
     void onDestroy();
 

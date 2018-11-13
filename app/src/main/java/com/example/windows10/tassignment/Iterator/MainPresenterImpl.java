@@ -30,11 +30,11 @@ public class MainPresenterImpl implements MainPresenter, GetDataListener {
     }
 
     @Override
-    public void getDataForList(Context context, boolean checking ) {
+    public void getDataForList(Context context ) {
 
         // get this done by the interactor
         mMainView.showProgress();
-        mInteractor.provideData(context,checking);
+        mInteractor.provideData(context);
 
     }
 
