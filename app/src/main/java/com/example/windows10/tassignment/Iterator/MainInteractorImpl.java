@@ -26,8 +26,6 @@ import com.example.windows10.tassignment.interfaces.GetDataListener;
 import com.example.windows10.tassignment.interfaces.MainInteractor;
 import com.example.windows10.tassignment.utils.Constants;
 
-import static android.content.Context.MODE_PRIVATE;
-
 /**
  *         Created by ashwini on 11/03/18.
  */
@@ -47,30 +45,30 @@ public class MainInteractorImpl implements MainInteractor {
     @Override
     public void provideData(Context context, boolean isRestoring) {
 
-        Boolean shouldLoadFromNetwork = false;
-        if (isRestoring) {
-
-            List<Article> existingData = ArticleDataManager.getInstance().getLatestData();
-
-            if (existingData != null && !existingData.isEmpty()) {
-                // we have cached copy of data for restoring purpose
-                shouldLoadFromNetwork = false;
-                mGetDatalistener.onSuccess("Restored Data", existingData);
-            } else {
-                shouldLoadFromNetwork = true;
-            }
-        } else {
-            shouldLoadFromNetwork = true;
-        }
-
-        if (shouldLoadFromNetwork) {
+//        Boolean shouldLoadFromNetwork = false;
+//        if (isRestoring) {
+//
+//            List<Article> existingData = ArticleDataManager.getInstance().getLatestData();
+//
+//            if (existingData != null && !existingData.isEmpty()) {
+//                // we have cached copy of data for restoring purpose
+//                shouldLoadFromNetwork = false;
+//                mGetDatalistener.onSuccess("Restored Data", existingData, "");
+//            } else {
+//                shouldLoadFromNetwork = true;
+//            }
+//        } else {
+//            shouldLoadFromNetwork = true;
+//        }
+//
+//        if (shouldLoadFromNetwork) {
 
             if (Utils.checkInternet(context)) {
                 this.initNetworkCall(context, Constants.Article_URL);
             } else {
                 mGetDatalistener.onFailure("No internet connection.");
             }
-        }
+//        }
     }
 
 
@@ -110,7 +108,8 @@ public class MainInteractorImpl implements MainInteractor {
             try {
 
                 JSONObject object = new JSONObject(response);
-                JSONArray array = object.getJSONArray("rows");
+                String articleTitle = object.getString("title");
+                        JSONArray array = object.getJSONArray("rows");
 
                 List<Article> articlesList = new ArrayList<Article>();
 
@@ -120,7 +119,7 @@ public class MainInteractorImpl implements MainInteractor {
                     articlesList.add(new Article(object1.getString(Constants.TITLE),object1.getString(Constants.DESC),object1.getString(Constants.IMAGE_URL)));
                 }
 
-                mGetDatalistener.onSuccess("data Success",articlesList);
+                mGetDatalistener.onSuccess("data Success",articlesList,articleTitle);
 
             } catch (JsonSyntaxException ex) {
                 Log.e("Network11", ex.toString());

@@ -60,7 +60,7 @@ public class ArticleFragment extends Fragment implements SwipeRefreshLayout.OnRe
 
         toolbar_layout = view.findViewById(R.id.toolbar_title_layout);
         toolbar_title = toolbar_layout.findViewById(R.id.toolbar_title);
-        toolbar_title.setText("text");
+
 
         mSwipeContainer =  view.findViewById(R.id.swipeContainer);
         // Setup refresh listener which triggers new data loading
@@ -89,7 +89,9 @@ public class ArticleFragment extends Fragment implements SwipeRefreshLayout.OnRe
     }
 
     @Override
-    public void onGetDataSuccess(String message, List<Article> list) {
+    public void onGetDataSuccess(String message, List<Article> list, String title) {
+
+        toolbar_title.setText(title);
 
         mArticleAdapter = new ArticleAdapter(getActivity(), list);
         mRecyclerView.setAdapter(mArticleAdapter);

@@ -9,7 +9,7 @@ import com.example.windows10.tassignment.data.Article;
  */
 
 public interface MainView {
-    void onGetDataSuccess(String message, List<Article> list);
+    void onGetDataSuccess(String message, List<Article> list, String title);
 
     void onGetDataFailure(String message);
 

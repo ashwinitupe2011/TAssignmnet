@@ -5,12 +5,69 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e19a343-76e0-4432-9e8d-062212a140df" name="Default" comment="Updates Test Cases">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/MainPresenterImplTest.java" />
+    <list default="true" id="9e19a343-76e0-4432-9e8d-062212a140df" name="Default" comment="Added Fragment, Make UI changes, and added toolbar">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_cardview_v7_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_recyclerview_v7_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_media_compat_26_0_0_alpha1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_v4_26_0_0_alpha1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/Iterator/MainPresenterImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/Iterator/MainPresenterImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/interfaces/GetDataListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/interfaces/GetDataListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/interfaces/MainView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/windows10/tassignment/interfaces/MainView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/Iterator/MainInteractorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/Iterator/MainPresenterImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/Iterator/MainPresenterImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/interfaces/GetDataListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/interfaces/GetDataListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/interfaces/MainView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/windows10/tassignment/interfaces/MainView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/Iterator/MainInteractorImpl$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/Iterator/MainInteractorImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/Iterator/MainInteractorImpl$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/Iterator/MainInteractorImpl$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/Iterator/MainInteractorImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/Iterator/MainInteractorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/Iterator/MainPresenterImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/Iterator/MainPresenterImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/interfaces/GetDataListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/interfaces/GetDataListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/interfaces/MainView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/example/windows10/tassignment/interfaces/MainView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/com/example/windows10/tassignment/interfaces/GetDataListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/com/example/windows10/tassignment/interfaces/GetDataListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/com/example/windows10/tassignment/interfaces/MainView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/com/example/windows10/tassignment/interfaces/MainView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/example/windows10/tassignment/Iterator/MainInteractorImpl$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/example/windows10/tassignment/Iterator/MainInteractorImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/example/windows10/tassignment/Iterator/MainInteractorImpl$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/example/windows10/tassignment/Iterator/MainInteractorImpl$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/example/windows10/tassignment/Iterator/MainInteractorImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/example/windows10/tassignment/Iterator/MainInteractorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/example/windows10/tassignment/Iterator/MainPresenterImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/example/windows10/tassignment/Iterator/MainPresenterImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/Iterator/MainInteractorImpl.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/Iterator/MainInteractorImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/Iterator/MainPresenterImpl.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/Iterator/MainPresenterImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/fragment/ArticleFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/fragment/ArticleFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/interfaces/GetDataListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/interfaces/GetDataListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/interfaces/MainView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/interfaces/MainView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/utils/Utils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/utils/Utils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,54 +91,28 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPresenterImplTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/MainPresenterImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPresenterImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/Iterator/MainPresenterImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="42" column="49" lean-forward="false" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>27</find>
+      <find>getDataForList</find>
+      <find>mMainPresenter</find>
+      <find>savedRecyclerLayoutState</find>
+      <find>onEQLoaded</find>
+      <find>toolbar_title_layout</find>
+      <find>ons</find>
+      <find>onGetDataSuccess</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1673,13 +1704,25 @@
       <list>
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/viewHolder/ItemViewHolder.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/adapter/ArticleAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/com/example/windows10/tassignment/ExampleInstrumentedTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/ExampleUnitTest.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/MainPresenterImplTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/ArticleFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/viewHolder/ItemViewHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/card_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/tool_bar.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_article.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/Iterator/MainPresenterImpl.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/fragment/ArticleFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/Iterator/MainInteractorImpl.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -1707,9 +1750,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1729,44 +1772,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TAssignment" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tassignment" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TAssignment" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.other.NonAndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1793,7 +1804,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.MainPresenterImplTest (1)">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="false" name="MainPresenterImplTest (1)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1890,7 +1901,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1541488592591" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1542135294725" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -1938,7 +1949,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1541488592591" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1542135294726" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2121,7 +2132,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1541488592607" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1542135294726" />
       </method>
     </configuration>
     <configuration default="false" name="Tests in 'com.example.windows10.tassignment'" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" nameIsGenerated="true">
@@ -2169,7 +2180,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1541488592607" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1542135294726" />
       </method>
     </configuration>
     <configuration default="false" name="ExampleInstrumentedT..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" nameIsGenerated="true">
@@ -2217,7 +2228,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1541488592607" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1542135294726" />
       </method>
     </configuration>
     <configuration default="false" name="MainPresenterImplTest" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2284,6 +2295,21 @@
       <option name="presentableId" value="Default" />
       <updated>1541404764835</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Fragment, Make UI changes, and added toolbar">
+      <created>1542134321632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542134321642</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Fragment, Make UI changes, and added toolbar">
+      <created>1542134643473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542134643473</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2299,33 +2325,46 @@
     <history-entry file="MainPresenterImplTest_(1) - 2018.11.06 at 12h 05m 03s.xml">
       <configuration name="MainPresenterImplTest (1)" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="MainPresenterImplTest_(1) - 2018.11.13 at 22h 22m 54s.xml">
+      <configuration name="MainPresenterImplTest (1)" configurationId="AndroidJUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.50653595" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7124183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.74509805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2333,69 +2372,22 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Updates Test Cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updates Test Cases" />
+    <MESSAGE value="Added Fragment, Make UI changes, and added toolbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Fragment, Make UI changes, and added toolbar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/viewHolder/ItemViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/adapter/ArticleAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2267#2268#0" expanded="false" />
-            <element signature="e#2306#2307#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/windows10/tassignment/ExampleInstrumentedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -2431,111 +2423,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/ExampleUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/viewHolder/ItemViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/adapter/ArticleAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2267#2268#0" expanded="false" />
-            <element signature="e#2306#2307#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/windows10/tassignment/ExampleInstrumentedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/ExampleUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/ExampleUnitTest.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#1335#1383#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2544,9 +2438,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2616,24 +2508,6 @@
             <element signature="e#2267#2268#0" expanded="false" />
             <element signature="e#2306#2307#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2672,29 +2546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="22" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/adapter/ArticleAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2267#2268#0" expanded="false" />
-            <element signature="e#2306#2307#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/viewHolder/ItemViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2709,13 +2560,537 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/activity/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/ExampleUnitTest.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/MainPresenterImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="303">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/data/ArticleResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/ArticleFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/ids.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/interfaces/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/windows10/tassignment/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="2382" column="35" lean-forward="false" selection-start-line="2382" selection-start-column="35" selection-end-line="2382" selection-end-column="35" />
+          <folding>
+            <marker date="1542133488531" expanded="true" signature="120846:120851" ph="{...}" />
+            <marker date="1542133488531" expanded="true" signature="120886:150027" ph="{...}" />
+            <marker date="1542133488531" expanded="true" signature="150066:455234" ph="{...}" />
+            <marker date="1542133488531" expanded="true" signature="150072:155236" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="155710:156151" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="156232:157515" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="157590:158089" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="158146:158840" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="158902:159600" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="159664:160239" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="160301:160898" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="160971:161548" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="161611:162190" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="162254:162833" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="162897:163504" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="163582:164105" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="164174:165106" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="165168:165661" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="165716:166279" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="166336:166893" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="166947:167324" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="167391:167904" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="167969:168468" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="168526:169013" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="169065:169596" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="169670:170237" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="170296:170783" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="170835:171522" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="171584:172083" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="172141:172722" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="172788:173299" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="173363:173749" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="173805:174318" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="174383:174763" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="174816:175323" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="175385:175817" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="175901:176419" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="176547:177812" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="177957:178457" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="178515:179210" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="179273:179783" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="179846:180404" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="180458:180972" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="181037:181545" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="181607:182342" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="182439:183000" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="183093:183513" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="183590:185066" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="185224:185665" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="185728:186251" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="186321:186830" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="186893:187394" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="187453:187976" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="188046:188405" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="188463:188988" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="189059:189647" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="189743:190370" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="190437:190943" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="191008:191953" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="192071:192515" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="192582:193084" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="193146:193607" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="193673:194525" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="194595:196086" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="196252:196902" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="196981:197625" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="197701:198347" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="198424:199072" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="199150:199798" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="199876:200520" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="200596:201061" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="201140:201762" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="201857:202320" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="202397:203000" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="203066:226012" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="227712:228228" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="228296:228826" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="228901:229423" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="229494:230385" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="230450:230972" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="231043:231555" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="231621:232145" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="232217:232735" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="232804:233330" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="233404:233916" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="233983:234507" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="234580:235098" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="235168:235690" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="235762:236294" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="236371:237078" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="237150:237674" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="237747:238283" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="238362:238892" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="238968:239496" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="239571:240097" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="240171:240699" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="240774:241304" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="241380:241916" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="241995:242533" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="242613:243143" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="243219:243753" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="243831:244345" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="244413:244951" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="245031:245565" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="245643:246173" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="246249:246781" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="246858:247396" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="247476:247868" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="247945:248461" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="248530:249046" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="249115:249587" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="249667:249991" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="250067:250601" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="250679:251205" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="251279:251803" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="251876:252416" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="252497:253035" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="253115:253655" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="253736:254248" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="254315:254821" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="254885:255401" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="255470:255980" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="256046:256570" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="256643:257100" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="257164:257645" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="257721:258190" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="258260:258737" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="258811:259288" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="259362:259833" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="259904:260363" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="260428:260895" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="260964:261443" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="261518:262036" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="262106:262700" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="262775:263281" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="263345:263863" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="263933:264447" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="264515:265041" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="265115:265727" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="265811:266331" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="266402:267097" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="267163:267673" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="267739:268257" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="268327:268843" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="268912:269454" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="269536:270064" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="270139:270657" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="270727:271251" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="271324:271920" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="271996:272602" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="272683:273289" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="273370:273976" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="274057:274665" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="274747:275261" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="275329:275849" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="275920:276506" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="276577:277089" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="277156:277672" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="277741:278257" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="278326:278838" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="278905:279435" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="279511:280033" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="280105:280619" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="280687:281195" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="281260:281792" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="281869:282421" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="282508:283040" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="283117:283625" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="283690:284196" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="284260:284800" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="284881:285409" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="285484:286022" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="286102:286644" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="286726:287278" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="287365:287911" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="287995:288535" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="288617:289342" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="289424:290129" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="290201:290741" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="290823:291331" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="291397:291771" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="291840:292228" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="292304:292694" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="292771:293647" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="293723:294599" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="294675:295549" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="295624:296498" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="296573:297443" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="297516:298386" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="298459:298829" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="298896:299344" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="299425:299796" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="299862:302357" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="302602:303112" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="303175:303683" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="303745:304212" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="304277:304853" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="304915:305485" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="305544:306120" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="306182:306568" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="306638:307016" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="307082:307654" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="307714:308298" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="308364:308944" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="309009:309591" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="309657:310235" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="310299:311030" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="311138:311471" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="311532:311813" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="311882:312279" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="312348:313106" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="313210:313654" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="313720:314175" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="314237:315034" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="315100:316773" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="316949:317532" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="317602:318187" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="318258:318829" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="318893:319341" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="319401:319978" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="320045:320626" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="320695:321058" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="321121:321692" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="321756:323159" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="323304:324498" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="324647:325087" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="325151:325727" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="325796:326077" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="326147:326639" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="326695:327323" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="327384:327717" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="327779:328192" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="328261:328775" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="328840:329497" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="329570:330244" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="330316:330725" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="330792:331197" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="331262:333151" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="333349:334378" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="334505:335798" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="335883:336867" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="336951:337255" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="337339:338321" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="338404:338730" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="338809:339124" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="339213:340485" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="340556:341146" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="341221:341510" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="341583:342085" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="342148:342730" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="342800:343194" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="343273:344038" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="344106:344771" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="344864:345411" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="345496:346039" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="346122:347263" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="347407:348040" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="348112:348413" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="348475:348906" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="348963:349669" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="349736:350022" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="350092:350393" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="350455:353572" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="353898:354400" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="354459:354866" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="354932:355331" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="355393:355746" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="355818:356122" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="356186:356486" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="356547:356847" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="356908:357342" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="357400:357830" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="357886:358591" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="358657:359004" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="359074:359405" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="359467:359752" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="359821:360148" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="360207:360552" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="360620:360920" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="360981:361386" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="361451:362272" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="362331:362722" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="362780:364546" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="364734:365377" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="365447:365907" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="365978:366617" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="366685:366988" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="367063:367525" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="367597:368053" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="368122:368588" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="368662:369038" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="369103:369605" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="369663:370441" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="370542:371038" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="371130:371522" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="371604:372071" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="372147:372791" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="372863:373230" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="373292:373956" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="374049:374644" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="374719:375304" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="375374:377749" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="377965:378648" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="378728:379312" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="379381:379757" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="379824:380372" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="380455:381003" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="381086:381630" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="381711:382255" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="382336:382735" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="382798:383166" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="383229:383558" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="383617:383983" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="384046:387027" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="387331:387945" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="388010:389568" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="389634:392021" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="392086:392596" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="392660:393158" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="393215:393715" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="393773:394176" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="394240:394732" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="394786:395162" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="395228:395720" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="395774:396284" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="396348:396737" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="396795:397303" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="397366:397866" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="397925:398437" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="398502:399020" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="399088:399586" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="399644:400630" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="400760:401726" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="401792:402231" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="402291:402931" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="402999:403436" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="403495:403992" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="404047:406577" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="406838:407173" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="407238:407571" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="407635:408075" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="408138:408496" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="408554:408916" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="408976:409552" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="409616:410190" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="410253:410775" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="410845:411425" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="411491:411942" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="412001:412843" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="412907:413399" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="413455:413906" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="413966:414808" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="414872:416703" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="416909:417314" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="417385:417668" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="417736:418019" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="418087:418378" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="418450:419085" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="419154:419797" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="419870:420384" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="420452:421104" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="421173:421849" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="421917:422517" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="422580:427693" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="428165:429426" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="429486:429995" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="430057:430712" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="430770:431190" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="431261:431762" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="431819:432392" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="432452:433047" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="433118:433693" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="433754:434331" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="434393:434970" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="435032:435637" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="435714:436199" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="436249:436647" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="436708:437281" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="437342:437766" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="437840:438345" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="438405:438902" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="438958:439342" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="439396:439917" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="439985:440447" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="440510:440888" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="440939:441504" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="441561:442138" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="442201:442772" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="442832:443407" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="443469:444040" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="444100:444667" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="444725:445240" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="445305:445761" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="445821:446764" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="446891:447727" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="447837:448480" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="448556:449025" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="449097:449908" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="449984:450686" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="450790:451226" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="451288:451740" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="451810:452254" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="452320:452928" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="452987:453419" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="453474:454034" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="454086:454650" ph="/**...*/" />
+            <marker date="1542133488531" expanded="true" signature="454704:455188" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/viewHolder/ItemViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="63" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="68" lean-forward="false" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_article.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#856#889#0" expanded="true" />
+            <element signature="e#918#953#0" expanded="true" />
+            <element signature="e#983#1018#0" expanded="true" />
+            <element signature="e#1046#1079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2725,50 +3100,133 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="53" />
+          <folding>
+            <element signature="e#297#317#0" expanded="true" />
+            <element signature="e#1688#1716#0" expanded="true" />
+            <element signature="e#1756#1785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="e#1335#1383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/adapter/ArticleAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="61" column="44" lean-forward="false" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+          <folding>
+            <element signature="e#2011#2212#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/Iterator/MainPresenterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/interfaces/MainInteractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/ExampleUnitTest.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/Iterator/MainInteractorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="442">
+          <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="e#3128#4226#0" expanded="true" />
+            <element signature="e#3547#3556#0" expanded="true" />
+            <element signature="e#4225#4226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="42" column="49" lean-forward="false" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/Iterator/MainPresenterImpl.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tool_bar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/windows10/tassignment/MainPresenterImplTest.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/fragment/ArticleFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="160">
+          <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/interfaces/GetDataListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/data/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/windows10/tassignment/data/ArticleDataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

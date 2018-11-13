@@ -11,7 +11,7 @@ import com.example.windows10.tassignment.data.Article;
 
 public interface GetDataListener {
 
-    void onSuccess(String message, List<Article> list);
+    void onSuccess(String message, List<Article> list, String title);
 
     void onFailure(String message);
 

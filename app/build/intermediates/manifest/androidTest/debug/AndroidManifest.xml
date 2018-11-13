@@ -3,7 +3,7 @@
     package="com.example.windows10.tassignment.test" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="21"
         android:targetSdkVersion="26" />
 
     <instrumentation
