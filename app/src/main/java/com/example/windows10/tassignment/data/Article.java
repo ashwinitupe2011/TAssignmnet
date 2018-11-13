@@ -16,6 +16,10 @@ public class Article {
         this.userURL = userURL;
     }
 
+    public Article() {
+
+    }
+
     public String getArticleTitle() {
         return articleTitle;
     }

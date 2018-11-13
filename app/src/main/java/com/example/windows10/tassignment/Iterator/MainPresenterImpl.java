@@ -1,8 +1,6 @@
 package com.example.windows10.tassignment.Iterator;
 
 import android.content.Context;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 
 import java.util.List;
 
@@ -32,11 +30,11 @@ public class MainPresenterImpl implements MainPresenter, GetDataListener {
     }
 
     @Override
-    public void getDataForList(Context context, boolean isRestoring) {
+    public void getDataForList(Context context, boolean checking ) {
 
         // get this done by the interactor
         mMainView.showProgress();
-        mInteractor.provideData(context, isRestoring);
+        mInteractor.provideData(context,checking);
 
     }
 
@@ -52,8 +50,6 @@ public class MainPresenterImpl implements MainPresenter, GetDataListener {
 
     @Override
     public void onSuccess(String message, List<Article> list, String title) {
-
-        // updating cache copy of data for restoring purpose
 
         ArticleDataManager.getInstance().setLatestData(list);
 

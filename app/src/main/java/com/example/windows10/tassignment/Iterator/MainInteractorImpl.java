@@ -21,7 +21,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.example.windows10.tassignment.data.Article;
-import com.example.windows10.tassignment.data.ArticleDataManager;
 import com.example.windows10.tassignment.interfaces.GetDataListener;
 import com.example.windows10.tassignment.interfaces.MainInteractor;
 import com.example.windows10.tassignment.utils.Constants;
@@ -43,32 +42,13 @@ public class MainInteractorImpl implements MainInteractor {
     }
 
     @Override
-    public void provideData(Context context, boolean isRestoring) {
-
-//        Boolean shouldLoadFromNetwork = false;
-//        if (isRestoring) {
-//
-//            List<Article> existingData = ArticleDataManager.getInstance().getLatestData();
-//
-//            if (existingData != null && !existingData.isEmpty()) {
-//                // we have cached copy of data for restoring purpose
-//                shouldLoadFromNetwork = false;
-//                mGetDatalistener.onSuccess("Restored Data", existingData, "");
-//            } else {
-//                shouldLoadFromNetwork = true;
-//            }
-//        } else {
-//            shouldLoadFromNetwork = true;
-//        }
-//
-//        if (shouldLoadFromNetwork) {
+    public void provideData(Context context, boolean checking) {
 
             if (Utils.checkInternet(context)) {
                 this.initNetworkCall(context, Constants.Article_URL);
             } else {
                 mGetDatalistener.onFailure("No internet connection.");
             }
-//        }
     }
 
 
@@ -116,7 +96,29 @@ public class MainInteractorImpl implements MainInteractor {
                 for (int i=0 ;i<array.length();i++)
                 {
                     JSONObject object1 = array.getJSONObject(i);
-                    articlesList.add(new Article(object1.getString(Constants.TITLE),object1.getString(Constants.DESC),object1.getString(Constants.IMAGE_URL)));
+
+                    Article article = new Article();
+                    article.setArticleTitle("ddd");
+
+                   if(object1.getString(Constants.TITLE) != "null" &&  object1.getString(Constants.DESC) != null && object1.getString(Constants.IMAGE_URL) != null)
+                   {
+                       if(object1.getString(Constants.TITLE) == null || object1.getString(Constants.TITLE)  == "null" )
+                           article.setArticleTitle(Constants.NO_TITLE);
+                       else
+                           article.setArticleTitle(object1.getString(Constants.TITLE));
+
+                       if(object1.getString(Constants.DESC) == null || object1.getString(Constants.DESC)  == "null" )
+                           article.setArticleDescription(Constants.NO_DESC);
+                       else
+                           article.setArticleDescription(object1.getString(Constants.DESC));
+
+                       if(object1.getString(Constants.IMAGE_URL) == null || object1.getString(Constants.IMAGE_URL)  == "null" )
+                           article.setUserURL(null);
+                       else
+                           article.setUserURL(object1.getString(Constants.IMAGE_URL));
+
+                       articlesList.add(article);
+                   }
                 }
 
                 mGetDatalistener.onSuccess("data Success",articlesList,articleTitle);

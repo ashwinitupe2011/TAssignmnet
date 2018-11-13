@@ -53,11 +53,12 @@ public class ArticleAdapter extends RecyclerView.Adapter<ItemViewHolder> {
         if (article.getArticleDescription()!= null)
         holder.tvDescription.setText(article.getArticleDescription());
 
-        if(article.getUserURL() != null)
-        Glide.with(mContext).load(article.getUserURL()).into(holder.imUserImage);
+        if(article.getUserURL() == null || article.getUserURL() == "null")
+            Glide.with(mContext).load(R.mipmap.ic_launcher).into(holder.imUserImage);
 
         else
-            Glide.with(mContext).load(R.mipmap.ic_launcher).into(holder.imUserImage);
+        Glide.with(mContext).load(article.getUserURL()).into(holder.imUserImage);
+
 
         holder.mCardView.setOnClickListener(new View.OnClickListener() {
             @Override

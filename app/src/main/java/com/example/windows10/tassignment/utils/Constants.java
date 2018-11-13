@@ -9,4 +9,6 @@ public final class Constants {
     public static final String TITLE = "title" ;
     public static final String DESC = "description" ;
     public static final String IMAGE_URL = "imageHref";
+    public static final String NO_TITLE = "No Title Available" ;
+    public static final String NO_DESC = " No Description Available";
 }
