@@ -1,8 +1,5 @@
 package com.example.ashwini.tassignment.data;
 
-/**
- *         Created by ashwini on 11/03/18.
- */
 
 public class Article {
 

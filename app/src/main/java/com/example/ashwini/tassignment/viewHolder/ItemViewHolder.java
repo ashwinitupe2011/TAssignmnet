@@ -8,10 +8,6 @@ import android.widget.TextView;
 
 import com.example.ashwini.tassignment.R;
 
-/**
- * Created by amit on 3/23/18.
- */
-
 public class ItemViewHolder extends RecyclerView.ViewHolder {
 
     public TextView tvTitle;

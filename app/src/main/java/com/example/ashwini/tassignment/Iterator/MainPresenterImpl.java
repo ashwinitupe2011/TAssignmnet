@@ -11,10 +11,6 @@ import com.example.ashwini.tassignment.interfaces.MainInteractor;
 import com.example.ashwini.tassignment.interfaces.MainPresenter;
 import com.example.ashwini.tassignment.interfaces.MainView;
 
-/**
- *         Created by ashwini on 11/03/18.
- */
-
 public class MainPresenterImpl implements MainPresenter, GetDataListener {
 
     private MainView mMainView;

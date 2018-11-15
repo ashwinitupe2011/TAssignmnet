@@ -4,10 +4,6 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-/**
- * Created by ashwini on 14-Nov-18.
- */
-
 public class Utils {
 
     public static Boolean isInternetConnection(Context context) {

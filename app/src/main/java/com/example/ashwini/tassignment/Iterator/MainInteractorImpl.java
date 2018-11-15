@@ -25,10 +25,6 @@ import com.example.ashwini.tassignment.interfaces.GetDataListener;
 import com.example.ashwini.tassignment.interfaces.MainInteractor;
 import com.example.ashwini.tassignment.utils.Constants;
 
-/**
- * Created by ashwini on 11/03/18.
- */
-
 public class MainInteractorImpl implements MainInteractor {
 
     private GetDataListener mGetDatalistener;

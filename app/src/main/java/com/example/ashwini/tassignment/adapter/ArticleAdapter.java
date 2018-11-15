@@ -17,10 +17,6 @@ import com.example.ashwini.tassignment.R;
 import com.example.ashwini.tassignment.data.Article;
 import com.example.ashwini.tassignment.viewHolder.ItemViewHolder;
 
-/**
- *         Created by ashwini on 11/03/18.
- */
-
 public class ArticleAdapter extends RecyclerView.Adapter<ItemViewHolder> {
 
     private Context mContext;

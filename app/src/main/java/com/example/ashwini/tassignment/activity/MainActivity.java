@@ -7,11 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import com.example.ashwini.tassignment.R;
 import com.example.ashwini.tassignment.fragment.ArticleFragment;
 
-/**
- * @author ashwini tupe
- *         Created by ashwini on 11/03/18.
- */
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -19,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
+    //Load the fragment
+    //Load the fragment
     ArticleFragment articleListFragment = new ArticleFragment();
     getSupportFragmentManager().beginTransaction()
             .replace(R.id.container, articleListFragment, getResources().getString(R.string.fragment_name)).commit();

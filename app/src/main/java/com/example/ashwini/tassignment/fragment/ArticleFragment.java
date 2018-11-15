@@ -25,10 +25,6 @@ import com.example.ashwini.tassignment.interfaces.MainView;
 
 import java.util.List;
 
-/**
- * Created by ashwini on 13-Nov-18.
- */
-
 public class ArticleFragment extends Fragment implements  MainView, SwipeRefreshLayout.OnRefreshListener, View.OnClickListener {
 
     LinearLayoutManager linearLayoutManager;
@@ -51,6 +47,10 @@ public class ArticleFragment extends Fragment implements  MainView, SwipeRefresh
         return view;
     }
 
+    /**
+     * Initialise the UI
+     * @param view
+     */
     private void InitView(View view) {
 
         linearLayoutManager = new LinearLayoutManager(getActivity());
@@ -80,11 +80,21 @@ public class ArticleFragment extends Fragment implements  MainView, SwipeRefresh
         super.onAttach(context);
     }
 
+    /**
+     * On refresh of swipe view
+     */
     @Override
     public void onRefresh() {
         mSwipeContainer.setRefreshing(true);
         mMainPresenter.getDataForList(getActivity());
     }
+
+    /**
+     * On success of network response
+     * @param message
+     * @param list
+     * @param title
+     */
 
     @Override
     public void onGetDataSuccess(String message, List<Article> list, String title) {
@@ -94,6 +104,10 @@ public class ArticleFragment extends Fragment implements  MainView, SwipeRefresh
         mRecyclerView.setAdapter(mArticleAdapter);
     }
 
+    /**
+     * on failure of network response
+     * @param message
+     */
     @Override
     public void onGetDataFailure(String message) {
         llNoInternetConn.setVisibility(View.VISIBLE);
