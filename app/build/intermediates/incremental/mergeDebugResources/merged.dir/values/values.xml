@@ -343,9 +343,9 @@
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
     <dimen name="secondary_text_size">13sp</dimen>
-    <dimen name="text_description">10sp</dimen>
+    <dimen name="text_description">12sp</dimen>
     <dimen name="text_padding">5dp</dimen>
-    <dimen name="text_size">15sp</dimen>
+    <dimen name="text_size">16sp</dimen>
     <dimen name="toolbar_text_size">20sp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
@@ -405,7 +405,8 @@
     <string name="dialog_message">Loading...</string>
     <string name="dialog_title">Please wait</string>
     <string name="fragment_name">ArticleFragment</string>
-    <string name="menu_refresh">Refresh</string>
+    <string name="no_internet">Internet connection is not available.</string>
+    <string name="retry">Retry</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

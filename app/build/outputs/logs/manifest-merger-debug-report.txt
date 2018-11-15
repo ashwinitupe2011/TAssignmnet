@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\09c1ae5db217f70e73435bb5d3e0d07e\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1f317eeab8659842b1b11314bcaa775b\AndroidManifest.xml:17:1-28:12
@@ -17,25 +17,25 @@ MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Windows 10\.gr
 MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\88a0c4d02540489cb97b5da44fea5f84\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\d0363aa9b436acd0ac5d6b441a5eef16\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\runtime-1.0.3.aar\4623fa499a66424d60399bb44faf89be\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:3:5-48
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:5:1-20:15
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:5:1-21:15
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\b7f8e55f454cf33fca71cbdb867d9b79\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Windows 10\.gradle\caches\2.2\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\09c1ae5db217f70e73435bb5d3e0d07e\AndroidManifest.xml:22:5-26:19
@@ -62,28 +62,30 @@ MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Windows 1
 		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:6:5-31
 	android:theme
 		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:10:5-36
-activity#com.example.windows10.tassignment.activity.MainActivity
-ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:11:5-18:16
+activity#com.example.ashwini.tassignment.activity.MainActivity
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:11:5-19:16
+	android:configChanges
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:13:9-70
 	android:name
-		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:12:9-46
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:12:9-77
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:13:9-17:25
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:14:9-18:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:14:13-65
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:15:13-65
 	android:name
-		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:14:21-62
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:15:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:16:13-73
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:17:13-73
 	android:name
-		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:16:23-70
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:17:23-70
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:22:1-63
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:23:1-63
 	android:name
-		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:22:18-60
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:23:18-60
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:23:1-75
+ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:24:1-75
 	android:name
-		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:23:18-72
+		ADDED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml:24:18-72
 uses-sdk
 INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Windows 10\Desktop\InfyAssignmnet\TAssignment\app\src\main\AndroidManifest.xml

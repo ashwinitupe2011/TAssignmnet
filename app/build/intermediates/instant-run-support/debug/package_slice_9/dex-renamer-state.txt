@@ -1,4 +1,0 @@
-#Wed Nov 14 01:02:55 IST 2018
-base.0=C\:\\Users\\Windows 10\\Desktop\\InfyAssignmnet\\TAssignment\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\29
-path.0=classes.dex
-renamed.0=classes.dex

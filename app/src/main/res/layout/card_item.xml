@@ -37,6 +37,8 @@
             android:id="@+id/imArticleImage"
             android:layout_width="125sp"
             android:layout_height="125sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginEnd="10sp"
             android:layout_below="@+id/tvTitle"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"

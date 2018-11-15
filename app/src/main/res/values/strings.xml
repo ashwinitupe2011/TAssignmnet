@@ -2,11 +2,13 @@
     <string name="app_name">TAssignment</string>
     <string name="dialog_message">Loading...</string>
     <string name="dialog_title">Please wait</string>
-    <string name="menu_refresh">Refresh</string>
+    <!--<string name="menu_refresh">Refresh</string>-->
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="fragment_name">ArticleFragment</string>
     <string name="content_description">Content Description</string>
+    <string name="no_internet">Internet connection is not available.</string>
+    <string name="retry">Retry</string>
 
 
 </resources>
